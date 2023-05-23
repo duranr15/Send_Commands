@@ -1,0 +1,5 @@
+conf t
+snmp-server group <grupo> priv
+snmp-server user <usuario> <grupo> auth sha <password>
+exit
+wr
